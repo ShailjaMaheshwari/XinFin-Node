@@ -8,6 +8,7 @@ services:
       - "./testnetgenesis.json:/work/testnetgenesis.json"
       - "./start-apothem.sh:/work/start-apothem.sh"
       - "./testnetbootnodes.list:/work/testnetbootnodes.list"
+      - "./addPeers.sh:/work/addPeers.sh"
       - "./.pwd:/work/.pwd"
       - "/etc/localtime:/etc/localtime:ro"
     restart: "always"
