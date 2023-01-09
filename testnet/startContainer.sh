@@ -1,0 +1,1 @@
+sudo docker exec -it testnet-xinfinnetwork-1 bash
